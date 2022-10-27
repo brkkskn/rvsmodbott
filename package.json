@@ -1,0 +1,55 @@
+{
+  "name": "hello-express",
+  "version": "0.0.1",
+  "description": "Revers",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "canvas": "^2.6.1",
+    "chalk": "^4.1.0",
+    "common-tags": "^1.8.0",
+    "discord.js": "^12.2.0",
+    "expres": "0.0.5",
+    "express": "^4.17.1",
+    "fs": "^0.0.2",
+    "hastebin-gen": "^2.0.5",
+    "jimp": "^0.16.0",
+    "moment": "^2.27.0",
+    "moment-duration-format": "^2.3.2",
+    "ms": "^2.1.2",
+    "node-superfetch": "^0.1.10",
+    "os": "^0.1.1",
+    "parse-ms": "^2.1.0",
+    "quick.db": "^7.1.1",
+    "randomstring": "^1.1.5",
+    "request": "^2.88.2",
+    "request-promise-native": "^1.0.9",
+    "steam-provider": "^0.2.0",
+    "superagent": "^6.0.0",
+    "weather-js": "^2.0.0",
+    "ffmpeg": "^0.0.4",
+    "ytdl-core": "^3.2.1",
+    "reaction-role": "^2.1.5",
+    "pokedex-api": "^1.1.2",
+    "js-robloxapi": "^1.0.6",
+    "wio.db": "^3.0.5",
+    "proton-io": "^0.0.5",
+    "node-fetch": "^3.2.3"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/hello-express"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ],
+  "devDependencies": {},
+  "author": ""
+}
