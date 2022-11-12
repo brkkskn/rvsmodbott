@@ -660,7 +660,8 @@ client.on('voiceStateUpdate', (oldMember, newMember) => {
 client.on('message', async (msg, member, guild) => {
   let DB = require('quick.db')
     if (msg.content.toLowerCase() === 'burak') {
-      msg.addField('asdasdasdsad')
+      msg.channel.send
+      .addField('asdasdasdsad')
     }
 })
 
