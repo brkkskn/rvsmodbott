@@ -660,10 +660,13 @@ client.on('voiceStateUpdate', (oldMember, newMember) => {
 client.on('message', async (msg, member, guild) => {
   let DB = require('quick.db')
     if (msg.content.toLowerCase() === 'burak') {
-      msg.channel.send
-      .addField('asdasdasdsad')
+      msg.channel.send('aasdasdsad')
     }
 })
+
+  if (!member) return message.channel.send(new Discord.MessageEmbed()    
+  .addField("Hata",`${prefix}erkek <Kullanıcı-Adı> <Isim> <Yaş> Şeklinde Olmalıdır.`)
+  .setColor("RANDOM"));
 
 
 
