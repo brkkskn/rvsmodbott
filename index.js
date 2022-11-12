@@ -652,4 +652,24 @@ client.on('voiceStateUpdate', (oldMember, newMember) => {
   }
 });
 
+
+
 //-------------------- Mod Log Sistemi Son --------------------//
+
+
+client.on('message', async (msg, member, guild) => {
+  let DB = require('quick.db')
+  let OtoCevap = await  DB.fetch(`otocevap_${msg.guild.id}`)
+
+    
+    const OtoCevapSelam = new Discord.RichEmbed()
+      .setColor('#000096')
+      .setDescription(`**Aleyküm Selam, Hoşgeldin ${msg.author.username}!**`)
+    
+    if (msg.content.toLowerCase() === 'yok bişi') {
+      msg.channel.send('LA SEN BENİMLE DALGA MI GEÇİYON')
+    }
+})
+
+
+
