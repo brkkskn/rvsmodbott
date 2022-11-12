@@ -670,9 +670,9 @@ client.on('message', async (msg, member, guild) => {
 
 client.on('message', async (msg, member, guild) => {
   let DB = require('quick.db')
-    if (msg.content.toLowerCase() === 'ada') {
+    if (msg.content.toLowerCase() === 'asd') {
         msg.channel.send(new Discord.MessageEmbed() 
-    .addField("Sana bir mesaj var!",`Siyah beyaz bir fotoğrafı bile gülüşüyle renklendiren kadın..`)                                                 
+    .addField("Sana bir mesaj var!",`Fazla söze gerek yok tıpkı adı gibi hayatımın Gökçesi..`)                                                 
     .setColor("RANDOM")
     .setTimestamp());
     
