@@ -661,7 +661,18 @@ client.on('message', async (msg, member, guild) => {
   let DB = require('quick.db')
     if (msg.content.toLowerCase() === 'ada') {
         msg.channel.send(new Discord.MessageEmbed() 
-    .addField("Sana bir mesaj var!",`sadasdasdasd.`)                                                 
+    .addField("Sana bir mesaj var!",`Siyah beyaz bir fotoğrafı bile gülüşüyle renklendiren kadın..`)                                                 
+    .setColor("RANDOM")
+    .setTimestamp());
+    
+    }
+});
+
+client.on('message', async (msg, member, guild) => {
+  let DB = require('quick.db')
+    if (msg.content.toLowerCase() === 'ada') {
+        msg.channel.send(new Discord.MessageEmbed() 
+    .addField("Sana bir mesaj var!",`Siyah beyaz bir fotoğrafı bile gülüşüyle renklendiren kadın..`)                                                 
     .setColor("RANDOM")
     .setTimestamp());
     
