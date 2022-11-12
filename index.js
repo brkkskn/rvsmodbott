@@ -659,14 +659,15 @@ client.on('voiceStateUpdate', (oldMember, newMember) => {
 
 client.on('message', async (msg, member, guild) => {
   let DB = require('quick.db')
-    if (msg.content.toLowerCase() === 'burak') {
-      msg.channel.send('aasdasdsad')
+    if (msg.content.toLowerCase() === 'asd') {
+        msg.channel.send(new Discord.MessageEmbed() 
+  .addField(`"Hataerkek <Kullanıcı-Adı> <Isim> <Yaş> Şeklinde Olmalıdır.`)
+    );
     }
-})
+  
+});
 
-  if (!member) return message.channel.send(new Discord.MessageEmbed()    
-  .addField("Hata",`${prefix}erkek <Kullanıcı-Adı> <Isim> <Yaş> Şeklinde Olmalıdır.`)
-  .setColor("RANDOM"));
+
 
 
 
