@@ -659,12 +659,13 @@ client.on('voiceStateUpdate', (oldMember, newMember) => {
 
 client.on('message', async (msg, member, guild) => {
   let DB = require('quick.db')
-    if (msg.content.toLowerCase() === 'asd') {
+    if (msg.content.toLowerCase() === 'ada') {
         msg.channel.send(new Discord.MessageEmbed() 
-  .addField(`"Hataerkek <Kullanıcı-Adı> <Isim> <Yaş> Şeklinde Olmalıdır.`)
-    );
+    .addField("Sana bir mesaj var!",`sadasdasdasd.`)                                                 
+    .setColor("RANDOM")
+    .setTimestamp());
+    
     }
-  
 });
 
 
