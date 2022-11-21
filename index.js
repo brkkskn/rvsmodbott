@@ -670,7 +670,7 @@ client.on('message', async (msg, member, guild) => {
 
 client.on('message', async (msg, member, guild) => {
   let DB = require('quick.db')
-    if (msg.content.toLowerCase() === 'asd') {
+    if (msg.content.toLowerCase() === 'gökçe') {
         msg.channel.send(new Discord.MessageEmbed() 
     .addField("Sana bir mesaj var!",`Fazla söze gerek yok tıpkı adı gibi hayatımın Gökçesi..`)                                                 
     .setColor("RANDOM")
@@ -679,7 +679,27 @@ client.on('message', async (msg, member, guild) => {
     }
 });
 
+client.on('message', async (msg, member, guild) => {
+  let DB = require('quick.db')
+    if (msg.content.toLowerCase() === 'servet') {
+        msg.channel.send(new Discord.MessageEmbed() 
+    .addField("Sana bir mesaj var!",`ADAMIN DİBİ KAREKÖKÜ..`)                                                 
+    .setColor("RANDOM")
+    .setTimestamp());
+    
+    }
+});
 
+client.on('message', async (msg, member, guild) => {
+  let DB = require('quick.db')
+    if (msg.content.toLowerCase() === 'umay') {
+        msg.channel.send(new Discord.MessageEmbed() 
+    .addField("Sana bir mesaj var!",`namıdiğer umaykoo..`)                                                 
+    .setColor("RANDOM")
+    .setTimestamp());
+    
+    }
+});
 
 
 
